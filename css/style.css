@@ -1,0 +1,332 @@
+body {
+    background-color: #f6f6f6e2;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.body {
+    background-color: white;
+}
+
+.fot-home {
+    background-color: #FAFAFA;
+}
+
+.about {
+    background-image: url(../images/about.webp);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.news p {
+    font-size: 14px;
+}
+
+.paragraph {
+    font-size: 12px;
+}
+
+.info h1 {
+    font-size: 80px;
+}
+
+.leagues ul li:hover {
+    background-color: #EAEAEA;
+    cursor: pointer;
+}
+
+table tbody td p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* .filter .active{
+    background-color: black;
+    color: white;
+}
+.filter .active:hover{
+    background-color: black;
+    color: white;
+} */
+.filter button {
+    border: 1px solid #d0cecefb;
+}
+
+.filter button:hover {
+    background-color: #EAEAEA;
+}
+
+.filter {
+    display: flex;
+}
+
+.navigate i:hover,
+.navigate h5:hover {
+    cursor: pointer;
+}
+
+.all-leagues:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+}
+
+.logo {
+    position: absolute;
+    left: 14%;
+}
+
+.logoo {
+    position: absolute;
+    right: 14%;
+}
+
+.time {
+    position: absolute;
+    left: 35%;
+}
+
+.result {
+    position: absolute;
+    right: 40%;
+}
+
+.matches:hover {
+    cursor: pointer;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #24713648;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #2a9844;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    display: none;
+}
+
+.owl-theme .owl-dots {
+    position: absolute;
+    top: -37px;
+    left: 0;
+}
+
+
+.special-content {
+    display: none;
+
+}
+
+.filter_link {
+    text-decoration: none;
+    color: #333333cd;
+    position: relative;
+}
+
+.filter_link.active {
+
+    font-weight: 600;
+    color: #2a9844;
+    /* Set the border color for the active link */
+}
+
+/* .date-filter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 0 auto;
+} */
+
+.arrow {
+    cursor: pointer;
+    background-color: #E9ECEF;
+
+}
+
+
+
+footer {
+    background-color: #EDEDED;
+}
+
+@media (min-width: 0px) and (max-width: 750px) {
+
+    .fot img {
+        width: 80px;
+    }
+
+    .info h1 {
+        font-size: 40px;
+    }
+
+    .text-width {
+        width: 100%;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        left: 24%;
+    }
+
+    .logoo {
+        position: absolute;
+        right: 23%;
+    }
+
+    .time {
+        position: absolute;
+        left: 25%;
+    }
+
+    .result {
+        position: absolute;
+        right: 25%;
+    }
+
+    .matches h6 {
+        font-size: 15px;
+    }
+
+    .matches img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .time h6,
+    .result h6 {
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .fot img {
+        width: 80px;
+    }
+
+    .text-width {
+        width: 100%;
+    }
+
+    .filter {
+        display: none;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 2000px) {
+    .text-width {
+        width: 75%;
+    }
+}
+
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 10%;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease-in-out;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* Initial transparent white layer */
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.image-container:hover .overlay {
+    opacity: 0.5;
+    /* Opacity of the white layer on hover */
+}
+
+.image-container:hover .image {
+    filter: brightness(70%);
+    /* Adjust brightness on hover */
+}
+
+
+.text-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.image-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #E6E6E6;
+    border-radius: 50%;
+}
+
+.image-contain:hover {
+    background-color: #D5D5D5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: fotMob;
+
+    src: url(../gt-walsheim-font-family-1702878192-0/GT-Walsheim-Condensed-Medium-Trial-BF651b7fc70de01.otf);
+
+}

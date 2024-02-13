@@ -1,0 +1,301 @@
+body {
+    background-color: #f6f6f6e2;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.fot-home{
+    background-color: #FAFAFA;
+}
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+    margin-bottom: -9px;
+    display: flex;
+}
+
+.nav-linkk {
+    padding: 10px;
+    text-decoration: none;
+    color: #333333cd;
+    position: relative;
+}
+
+.nav-linkk.active {
+    border-bottom: 2px solid #000000;
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 600;
+    /* Set the border color for the active link */
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.special-content {
+    display: none;
+   
+}
+
+.arrow {
+    cursor: pointer;
+    background-color: #E9ECEF;
+    
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    display: none;
+}
+
+td .form div{
+    width: 25px;
+    height: 25px;
+}
+
+.win{
+    background: green;
+}
+.draw{
+    background-color: #8D9499;
+}
+
+.lose{
+    background-color: #DD3636;
+}
+
+.field{
+    background-image: url(../images/Football_field.svg.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.goalkeaper{
+    position: absolute;
+    bottom: 5px;
+    left: 45%;
+}
+.defense_1{
+    position: absolute;
+    bottom: 25%;
+    left: 11%;
+}
+.defense_2{
+    position: absolute;
+    bottom: 18%;
+    left: 32%;
+}
+.defense_3{
+    position: absolute;
+    bottom: 18%;
+    left: 53%;
+}
+
+.defense_4{
+    position: absolute;
+    bottom: 25%;
+    right: 15%;
+}
+.mid_1{
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+.mid_2{
+    position: absolute;
+    top: 45%;
+    right: 44%;
+}
+.mid_3{
+    position: absolute;
+    top: 35%;
+    left: 14%;
+}
+.forward_1{
+    position: absolute;
+    top: 5px;
+    left: 42%;
+}
+
+.forward_2{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.forward_3{
+    position: absolute;
+    top: 11%;
+    right: 20%;
+}
+
+.hidden-element {
+    visibility: hidden;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.news p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #EDEDED;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease-in-out;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* Initial transparent white layer */
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.image-container:hover .overlay {
+    opacity: 0.5;
+    /* Opacity of the white layer on hover */
+}
+
+.image-container:hover .image {
+    filter: brightness(70%);
+    /* Adjust brightness on hover */
+}
+
+
+.text-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.image-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #E6E6E6;
+    border-radius: 50%;
+}
+
+.image-contain:hover {
+    background-color: #D5D5D5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute;
+    left: 14%;
+}
+.logoo{
+    position: absolute;
+    right: 14%;
+}
+.time{
+    position: absolute;
+    left: 44%; 
+}
+.matches:hover{
+    cursor: pointer;
+}
+.button span{
+    cursor: pointer;
+}
+
+
+@media (min-width : 0px) and (max-width : 768px){
+    .table_no{
+        display: none;
+    }
+    .matches h6{
+        font-size: 15px;
+    }
+    .matches img{
+        width: 30px;
+        height: 30px;
+    }
+    .time h6,
+    .result h6{
+        font-size: 13px;
+    }
+    .logo{
+        position: absolute;
+        left: -18%;
+    }
+    .logoo{
+        position: absolute;
+        right: -17%;
+    }
+    .time{
+        position: absolute;
+        left: 15%; 
+    }
+}
+
+
+@font-face{
+    font-family: fotMob;
+    
+    src: url(../gt-walsheim-font-family-1702878192-0/GT-Walsheim-Condensed-Regular-Trial-BF651b7fc730eb2.otf);
+    
+}
